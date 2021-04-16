@@ -1,0 +1,210 @@
+{
+  "MyGuide": {
+    "MyAds": {
+      "admob_interstitial_one": "ca-app-pub-3940256099942544/1033173712",
+      "admob_interstitial_two": "ca-app-pub-3940256099942544/1033173712",
+      "admob_interstitial_three": "ca-app-pub-3940256099942544/1033173712",
+
+      "admob_banner_one": "ca-app-pub-3940256099942544/6300978111",
+      "admob_banner_two": "ca-app-pub-3940256099942544/6300978111",
+
+      "admob_native_home": "/6499/example/native",
+      "admob_native_details": "/6499/example/native",
+
+      "fb_interstitial_one": "IMG_16_9_APP_INSTALL#460111331987115_460118068653108",
+      "fb_interstitial_two": "IMG_16_9_APP_INSTALL#460111331987115_460118351986413",
+      "fb_interstitial_three": "IMG_16_9_APP_INSTALL#460111331987115_460118508653064",
+
+      "fb_banner_one": "IMG_16_9_APP_INSTALL#460111331987115_460117315319850",
+      "fb_banner_two": "IMG_16_9_APP_INSTALL#460111331987115_460111641987084",
+
+      "fb_native_home": "IMG_16_9_APP_INSTALL#460111331987115_460117715319810",
+      "fb_native_details": "IMG_16_9_APP_INSTALL#460111331987115_460117851986463",
+
+      "ads_network": "facebook",
+
+      "update": false,
+      "update_link": "com.womboai.wombo"
+    },
+    "Categories": [
+        {
+          "title": "Project Demo",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item1"
+        },
+        {
+          "title": "System requirements",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item2"
+        },
+        {
+          "title": "Installation process",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item3"
+        },
+        {
+          "title": "Be aware of the laws",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item4"
+        },
+        {
+          "title": "Use Avatarify",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item5"
+        },
+        {
+          "title": "Select a photo",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item6"
+        },
+        {
+          "title": "Animate the photo",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item7"
+        },
+        {
+          "title": "Record a video",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item8"
+        },
+        {
+          "title": "Add new avatars",
+          "image": "https://ewr1.vultrobjects.com/wombo/icone.jpeg",
+          "content": "item9"
+        }
+    ],
+    "item1" : [
+      {
+        "type": "image",
+        "value": "https://miro.medium.com/max/600/1*JCUzscs7wZ99VnNkf-ofUg.gif"
+      },
+      {
+        "type": "text",
+        "value": "As shown in the demo, the author imports a photo, and the person in the photo is animated according to the motion of author himself moves in front of a camera. Raising eyebrows, blinking, and speaking are happening smoothly in a real-time conferencing call."
+      },
+      {
+        "type": "image",
+        "value": "https://miro.medium.com/max/600/1*SLvdhL6Aq4huITV-QLAEzw.gif"
+      },
+      {
+        "type": "text",
+        "value": "Of course, you can try something more interesting. For example, a blink from Einstein, Eminem  gaze, Steve Jobs raises eyebrows, and the Mona Lisa smile. You can replace your face with anyone if you want. What you need to do is just to find a picture of the person you want to play and put it in the projects avatars folder."
+      }
+    ],
+
+    "item2" : [
+      {
+        "type": "text",
+        "value": "In order to run Avatarify smoothly, you need a CUDA-enabled -NVIDIA- video card. Otherwise, it will fall back to the central processor and run very slowly. These are performance metrics for some hardware:"
+      },
+      {
+        "type": "text",
+        "value": "Avatarify requires a CUDA-enabled NVIDIA GPU to perform heavy tasks. Macbooks do not have such GPUs, and for processing use CPU, which has much less computing power to run Avatarify smoothly, so we have not included it in this blog."
+      },
+      {
+        "type": "text",
+        "value": "Of course, you also need a webcam!"
+      }
+    ],
+
+    "item3" : [
+      {
+        "type": "image",
+        "value": "https://img.meshpie.com/v7/https://meshpie.com/wp-content/uploads/2020/05/1.png?w=779&h=382&org_if_sml=1"
+      },
+      {
+        "type": "text",
+        "value": "First, you need to download the latest version of your Nvidia driver. Click here to visit the Nvidia site, select your graphics card model from the list, and press Search."
+      },
+      {
+        "type": "text",
+        "value": "Next, Install Miniconda Python 3.7. While installing no need to change any options, just press Next"
+      },
+      {
+        "type": "image",
+        "value": "https://img.meshpie.com/v7/https://meshpie.com/wp-content/uploads/2020/05/Python-3.7.png?w=621&h=484&org_if_sml=1"
+      },
+      {
+        "type": "image",
+        "value": "https://img.meshpie.com/v7/https://meshpie.com/wp-content/uploads/2020/05/miniconda-1024x838.png?w=1024&h=838&org_if_sml=1"
+      },
+      {
+        "type": "text",
+        "value": "To install Avatarify, copy-paste these 3 commands and do not change them. The 3rd command will take some time. Do not close this window till the end."
+      },
+      {
+        "type": "text",
+        "value": "This software comes with few avatars as default and if you wish to add new avatars, it is very simple, Go to Avatarify folder, select the Avatars file and paste the .jpg or .png file of the avatar that you wish to look like in your video-conferencing applications."
+      }
+    ],
+
+    "item4" : [
+      {
+        "type": "text",
+        "value": "Finally, it is very important to mention the law for deepfakes."
+      },
+      {
+        "type": "image",
+        "value": "https://static.tildacdn.com/tild3332-6437-4561-b032-646539626133/dog_single.gif"
+      },
+      {
+        "type": "text",
+        "value": "According to a report from The Guardian, deepfakes are not illegal per se, but producers and distributers can easily fall foul of the law. Depending on the content, a deepfake may infringe copyright, breach data protection law, and be defamatory if it exposes the victim to ridicule."
+      }
+    ],
+
+    "item5" : [
+      {
+        "type": "image",
+        "value": "https://static.tildacdn.com/tild3135-6236-4536-a263-313239343837/mona_single.gif"
+      },
+      {
+        "type": "text",
+        "value": "The process is fairly straightforward, although you may experience some technical difficulties along the way. We WIll explain the process as best we can and hope you do not get frustrated while mirroring these steps."
+      }
+    ],
+
+    "item6" : [
+      {
+        "type": "image",
+        "value": "https://articles-img.sftcdn.net/image/upload/v1614250316/p096q1j7_ravuzq.jpg"
+      },
+      {
+        "type": "text",
+        "value": "First up, you will need to select the photo that you are going to animate. The face needs to be as clear as possible, otherwise, you will struggle to link your face to the one on the image. You can go as far as using your pet or boss, as long as you do not offend anyone in the process. Of course, if it is your ex-boyfriend or ex-girlfriend, who cares, right?"
+      }
+    ],
+
+    "item7" : [
+      {
+        "type": "image",
+        "value": "https://articles-img.sftcdn.net/image/upload/v1614250223/avatarify1_ugos9z.jpg"
+      },
+      {
+        "type": "text",
+        "value": "Once you have completed the recording, it is time for the A.I. to kick in. Avatarify will now synchronize your expressions and words with the photo you selected at the beginning. If it does this successfully, you can save and share it with your friends. Alternatively, you may need to try again with a better photo or recording."
+      }
+    ],
+    "item8" : [
+      {
+        "type": "image",
+        "value": "https://articles-img.sftcdn.net/image/upload/v1614250207/s00001_pb27j2.jpg"
+      },
+      {
+        "type": "text",
+        "value": "Now is the time to step up to the plate. Prepare what you want to say and put your best acting to good use. Remember, the Avatar in the photo will attempt to mimic your expressions and words, so make sure you pronounce everything precisely. Yes, you can also make absurd sounds if that is your goal."
+      }
+    ],
+    "item9" : [
+      {
+        "type": "image",
+        "value": "https://img.meshpie.com/v7/https://meshpie.com/wp-content/uploads/2020/05/New-avatars-1024x576.png"
+      },
+      {
+        "type": "text",
+        "value": "This software comes with few avatars as default and if you wish to add new avatars, it is very simple, Go to Avatarify folder, select the Avatars file and paste the .jpg or .png file of the avatar that you wish to look like in your video-conferencing applications."
+      }
+    ]
+
+  }
+}
